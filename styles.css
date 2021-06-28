@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: 	#f9f1f1;
+}
+
+header {
+    background-color: #510d0a;
+    height: 60px;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+main {
+    height: calc(100vh - 60px);
+    margin: auto;
+}
+
+.form-container {
+    text-align: center;
+    margin-top: 3em;
+}
+
+.form-container form { 
+    width: 60%;
+    margin: 0 auto;
+    padding: 2em 1em;
+    box-shadow: 3px 4px 6px #ccc;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1em;
+}
+
+.form-container form input[type="text"] {
+    flex: 2.5;
+    padding: 1em 0.5em;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.form-container form button[type="submit"] {
+    flex: 1;
+    background-color: #510d0a;
+    color: #fff;
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+    border-radius: 3em;
+    font-weight: bolder;
+}
+
+.weather-info {
+    text-align: center;
+    background-color: #fff;
+    width: 40%;
+    padding: 1em;
+    line-height: 3em;
+    margin: 1em auto;
+}
